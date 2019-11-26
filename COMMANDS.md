@@ -1,8 +1,24 @@
 # Commands
-- man
-- which
-- clear
-- echo
+- man - interface about commands (manual)
+```console
+# man <command>
+foo@bar:~$ man ls
+```
+- which - show a pathname of files or links
+```console
+# which <file or link>
+foo@bar:~$ which ls man
+```
+- clear - clean the terminal screen
+```console
+# clear
+foo@bar:~$ clear
+```
+- echo - display a line of text [more detail](./commands/ECHO.md)
+```console
+# echo <?options> <text | variables>
+foo@bar:~$ echo -e "I care with backslash \n and you?"
+```
 - uname
 - history
 - cat
@@ -61,4 +77,4 @@ foo
 ```
 
 ## References
-- references.. TODO
+- I used the man to each command
