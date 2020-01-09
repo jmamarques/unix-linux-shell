@@ -42,7 +42,7 @@ foo@bar:~$ echo -e "I care with backslash \n and you?"
 - pwd
 - mktemp
 - rm
-- /dev/null
+- /dev/null - black hole in linux
 - mv
 - cp
 - touch
