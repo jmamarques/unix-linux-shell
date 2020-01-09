@@ -5,6 +5,11 @@
 ![Linux](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png)
 ---
 ## Notes
+## Table of Content
+- [System Directory Structure](SYSTEM_DIRECTORY_STRUCTURE.md)
+- [Commands](COMMANDS.md)
+- [Utilities](UTILITIES.md)
+- [Permissions in Linux/Unix](Permissions.md)
 ### Content
 * Upload Files with commands and explanations 
 * Cheat Sheets
