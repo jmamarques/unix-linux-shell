@@ -25,6 +25,17 @@ foo@bar:~$ echo -e "I care with backslash \n and you?"
 foo@bar:~$ man uname
 foo@bar:~$ uname -a"
 ```
+- ls -> list directory contents
+```console
+# ls <?options | -a -> hidden files>
+# important options:
+# -d -> directories
+# -a -> hidden files
+# -l -> long form with permissions, name, size, type, ...
+# -lt and -ltr order by desc and asc respectively
+foo@bar:~$ man ls
+foo@bar:~$ ls -a"
+```
 - history
 - cat
 - nl
