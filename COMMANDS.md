@@ -20,6 +20,11 @@ foo@bar:~$ clear
 foo@bar:~$ echo -e "I care with backslash \n and you?"
 ```
 - uname
+```console
+# uname <?options | -a -> all informations>
+foo@bar:~$ man uname
+foo@bar:~$ uname -a"
+```
 - history
 - cat
 - nl

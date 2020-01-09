@@ -9,7 +9,7 @@
 * Upload Files with commands and explanations 
 * Cheat Sheets
 * Create useful programs
-* Standart configurations for Unix/Linux 
+* Standard configurations for Unix/Linux 
 * regular expression
 * permissions
 * 
