@@ -83,7 +83,13 @@ foo@bar:~$ man vi
 foo@bar:~$ ll | vi
 foo@bar:~$ vi dummyFile.txt
 ```
-- nano
+- nano -> Nano's ANOther editor, an enhanced free Pico clone
+```console
+# nano <file>
+foo@bar:~$ man nano
+foo@bar:~$ ll | nano
+foo@bar:~$ nano dummyFile.txt
+```
 - \> , \>\>
 - chmod
 - chown
