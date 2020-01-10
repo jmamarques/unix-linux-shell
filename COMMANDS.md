@@ -97,7 +97,18 @@ foo@bar:~$ man tail
 foo@bar:~$ ls | tail -1
 foo@bar:~$ tail -1 dummyFile.txt
 ```
-- wc
+- wc -> print newline, word, and byte counts for each file
+```console
+# wc - > count words, lines and characters in files
+# wc <OPTIONS> <FILE>
+# -l -> number of lines
+# -w -> number of words
+# -c -> number of bytes
+# wc <FILE> -> display counter of words, lines and characters
+foo@bar:~$ man wc
+foo@bar:~$ ll | wc -l
+foo@bar:~$ wc dummyFile.txt
+```
 - tree
 - mkdir
 - cd
