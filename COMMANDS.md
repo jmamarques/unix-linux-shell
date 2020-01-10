@@ -138,7 +138,12 @@ foo@bar:~$ man wc
 foo@bar:~$ ll | wc -l
 foo@bar:~$ wc dummyFile.txt
 ```
-- tree
+- tree –> recursive list the content of directory
+```console
+# tree <DIRECTORY> -> display a useful and friendly structure of content
+foo@bar:~$ man tree
+foo@bar:~$ tree .
+```
 - mkdir
 - cd
 - pwd
