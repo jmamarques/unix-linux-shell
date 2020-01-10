@@ -48,7 +48,13 @@ foo@bar:~$ ls -a"
 - chmod
 - chown
 - chgrp
-- ln
+- ln -> make links
+```console
+# ln -s <path/destination – target> <name shortcut>
+# -s – symbolic link, do a symbolic links instead of hard links
+foo@bar:~$ man ln
+foo@bar:~$ ln -s /bin executables
+```
 - readlink
 - head
 - tail
