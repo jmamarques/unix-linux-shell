@@ -37,7 +37,16 @@ foo@bar:~$ uname -a"
 foo@bar:~$ man ls
 foo@bar:~$ ls -a"
 ```
-- history
+- history -> GNU History Library
+```console
+# history -> display list of commands before executed
+# !<number> -> execute that command
+# !! -> las command
+foo@bar:~$ man history
+foo@bar:~$ history
+foo@bar:~$ !1
+foo@bar:~$ !!
+```
 - cat -> concatenate files and print on the standard output
 ```console
 # cat – n <file> -> enumerate each line
