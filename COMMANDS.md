@@ -38,7 +38,15 @@ foo@bar:~$ man ls
 foo@bar:~$ ls -a"
 ```
 - history
-- cat
+- cat -> concatenate files and print on the standard output
+```console
+# cat – n <file> -> enumerate each line
+# cat -n = nl (alias)
+# -v -> show special signals
+# nl -s ‘<string>’ <FILE> -> count how many times appear that word
+foo@bar:~$ man cat
+foo@bar:~$ ls | cat -n
+```
 - nl
 - less
 - more
