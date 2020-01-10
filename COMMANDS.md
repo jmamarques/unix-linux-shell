@@ -56,7 +56,12 @@ foo@bar:~$ !!
 foo@bar:~$ man cat
 foo@bar:~$ ls | cat -n
 ```
-- nl
+- nl - number lines of files
+```console
+# nl <options> <file> -> enumerate each line
+foo@bar:~$ man nl
+foo@bar:~$ ll | nl
+```
 - less
 - more
 - vi
