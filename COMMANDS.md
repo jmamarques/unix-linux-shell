@@ -55,7 +55,12 @@ foo@bar:~$ ls -a"
 foo@bar:~$ man ln
 foo@bar:~$ ln -s /bin executables
 ```
-- readlink
+- readlink -> print resolved symbolic links or canonical file names
+```console
+# readlink <options> <link>
+foo@bar:~$ man readlink
+foo@bar:~$ readlink dummyLink
+```
 - head
 - tail
 - wc
