@@ -91,9 +91,16 @@ foo@bar:~$ ll | nano
 foo@bar:~$ nano dummyFile.txt
 ```
 - \> , \>\>
-- chmod
-- chown
-- chgrp
+- chmod -> change file mode bits [more detail](./Permissions.md)
+- chown -> change file owner and group [more detail](./Permissions.md)
+- chgrp -> change group ownership [more detail](./Permissions.md)
+```console
+#chmod <permissions> <target>
+#chmod u=rwx,g=rwx,o= <file>
+#chmod 770 <file>
+foo@bar:~$ man chmod 
+foo@bar:~$ chmod 777 file.txt 
+```
 - ln -> make links
 ```console
 # ln -s <path/destination – target> <name shortcut>
