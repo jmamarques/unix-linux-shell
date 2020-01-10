@@ -78,7 +78,16 @@ foo@bar:~$ ln -s /bin executables
 foo@bar:~$ man readlink
 foo@bar:~$ readlink dummyLink
 ```
-- head
+- head -> output the first part of files
+
+```console
+# head -<N> <FILE>
+# head -1 <FILE> -> First line
+# N -> number de lines to display
+foo@bar:~$ man head
+foo@bar:~$ ls | head -1
+foo@bar:~$ head -1 dummyFile.txt
+```
 - tail
 - wc
 - tree
