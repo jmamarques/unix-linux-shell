@@ -16,7 +16,10 @@ foo@bar:~$ ls; echo `ls` > /dev/null
 ```console
 foo@bar:~$ echo `ls` 
 ```
-
+- \> 
+TODO
+- \>\>
+TODO
 ## References
 - I used the man to each command
 
