@@ -62,7 +62,13 @@ foo@bar:~$ ls | cat -n
 foo@bar:~$ man nl
 foo@bar:~$ ll | nl
 ```
-- less
+- less -> opposite of more
+```console
+# less <file> -> display file by end
+foo@bar:~$ man less
+foo@bar:~$ ll | less
+foo@bar:~$ less dummyFile.txt
+```
 - more
 - vi
 - nano
