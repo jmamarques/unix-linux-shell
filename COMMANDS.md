@@ -69,7 +69,13 @@ foo@bar:~$ man less
 foo@bar:~$ ll | less
 foo@bar:~$ less dummyFile.txt
 ```
-- more
+- more -> file perusal filter for crt viewing
+```console
+# more <file>
+foo@bar:~$ man more
+foo@bar:~$ ll | more
+foo@bar:~$ more dummyFile.txt
+```
 - vi
 - nano
 - \> , \>\>
