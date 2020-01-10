@@ -76,7 +76,13 @@ foo@bar:~$ man more
 foo@bar:~$ ll | more
 foo@bar:~$ more dummyFile.txt
 ```
-- vi
+- vim - Vi IMproved, a programmer's text editor
+```console
+# vi <file>
+foo@bar:~$ man vi
+foo@bar:~$ ll | vi
+foo@bar:~$ vi dummyFile.txt
+```
 - nano
 - \> , \>\>
 - chmod
