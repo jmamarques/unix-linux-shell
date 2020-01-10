@@ -88,7 +88,15 @@ foo@bar:~$ man head
 foo@bar:~$ ls | head -1
 foo@bar:~$ head -1 dummyFile.txt
 ```
-- tail
+- tail - output the last part of files
+```console
+# tail -<N> <FILE>
+# tail -1 <FILE> -> last line
+# N -> number de lines to display
+foo@bar:~$ man tail
+foo@bar:~$ ls | tail -1
+foo@bar:~$ tail -1 dummyFile.txt
+```
 - wc
 - tree
 - mkdir
