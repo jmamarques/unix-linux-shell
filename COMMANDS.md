@@ -151,7 +151,17 @@ foo@bar:~$ wc dummyFile.txt
 foo@bar:~$ man tree
 foo@bar:~$ tree .
 ```
-- mkdir
+- mkdir -> make directories
+```console
+mkdir <options> <nameDir>
+-m <PERMISSION> - create a directory with default permission
+-p – create the parents too
+# tree <DIRECTORY> -> display a useful and friendly structure of content
+foo@bar:~$ man mkdir
+foo@bar:~$ mkdir test
+foo@bar:~$ mkdir -m 777 test
+foo@bar:~$ mkdir -p notexist/v1
+```
 - cd
 - pwd
 - mktemp
