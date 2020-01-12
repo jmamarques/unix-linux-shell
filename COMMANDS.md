@@ -173,7 +173,12 @@ foo@bar:~$ mkdir -p notexist/v1
 #cd - ->previous location
 foo@bar:~$ cd ~
 ```
-- pwd
+- pwd –> print full filename of current working directory
+```console
+# pwd <options>
+foo@bar:~$ man pwd
+foo@bar:~$ pwd
+```
 - mktemp
 - rm
 - /dev/null - black hole in linux
