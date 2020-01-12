@@ -162,7 +162,17 @@ foo@bar:~$ mkdir test
 foo@bar:~$ mkdir -m 777 test
 foo@bar:~$ mkdir -p notexist/v1
 ```
-- cd
+- cd –> change directory
+  
+```console
+#cd <DIR>
+# .. back in directory
+# ~ -> home
+# $Home -> home
+# / -> root
+#cd - ->previous location
+foo@bar:~$ cd ~
+```
 - pwd
 - mktemp
 - rm
