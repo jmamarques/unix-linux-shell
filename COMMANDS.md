@@ -188,7 +188,16 @@ foo@bar:~$ mktemp topXXXXXX
 foo@bar:~$ mktemp -d
 foo@bar:~$ mktemp
 ```
-- rm
+- rm -> remove files or directories
+```console
+# rm <OPTIONS> <PATTERN>
+#   -r – recursive
+#   -rf – recursive and force without asking-rf – recursive and force without asking
+foo@bar:~$ man rm
+foo@bar:~$ rm -f Test*
+foo@bar:~$ rm -r dummyFolder
+foo@bar:~$ rm -rf dummy*
+```
 - /dev/null - black hole in linux
 - mv
 - cp
