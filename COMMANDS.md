@@ -179,7 +179,15 @@ foo@bar:~$ cd ~
 foo@bar:~$ man pwd
 foo@bar:~$ pwd
 ```
-- mktemp
+- mktemp –> create temporary file and return the full path 
+```console
+# mktemp <OPTIONS> <template need to be present many X's>
+#   -d – create a directory
+foo@bar:~$ man mktemp
+foo@bar:~$ mktemp topXXXXXX
+foo@bar:~$ mktemp -d
+foo@bar:~$ mktemp
+```
 - rm
 - /dev/null - black hole in linux
 - mv
