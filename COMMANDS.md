@@ -211,7 +211,14 @@ foo@bar:~$ mv dummyTarget dummyDestination
 foo@bar:~$ man cp
 foo@bar:~$ cp dummyTarget dummyName dummyDestination
 ```
-- touch
+- touch –> important to change date/time of files
+```console
+#  touch -t  201911271000.00 <FILE> -> create or change a date
+#  touch `date “+%Y%m%d”` <FILE>
+#  date “+%Y%m%d” -> date in this format
+foo@bar:~$ man touch
+foo@bar:~$ touch `date “+%Y%m%d”` dummyFile
+```
 - date
 - grep
 - tee
