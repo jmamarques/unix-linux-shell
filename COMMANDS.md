@@ -221,7 +221,14 @@ foo@bar:~$ touch `date “+%Y%m%d”` dummyFile
 ```
 - date
 - grep
-- tee
+- tee -> read from standard input and write to standard output and files
+```console
+#  tee <OPTIONS> <FILE> -> create a file and show the result
+#  touch `date “+%Y%m%d”` <FILE>
+#  date “+%Y%m%d” -> date in this format
+foo@bar:~$ man tee
+foo@bar:~$ tee dummyFile
+```
 - sort
 - find
 - xargs
