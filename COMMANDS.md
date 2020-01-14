@@ -199,7 +199,12 @@ foo@bar:~$ rm -r dummyFolder
 foo@bar:~$ rm -rf dummy*
 ```
 - /dev/null - black hole in linux
-- mv
+- mv –> move a file or rename
+```console
+#  mv <TARGET> <DESTINATION>
+foo@bar:~$ man mv
+foo@bar:~$ mv dummyTarget dummyDestination
+```
 - cp
 - touch
 - date
