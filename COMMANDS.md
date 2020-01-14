@@ -205,7 +205,12 @@ foo@bar:~$ rm -rf dummy*
 foo@bar:~$ man mv
 foo@bar:~$ mv dummyTarget dummyDestination
 ```
-- cp
+- cp –> copy a file
+```console
+#  cp <TARGET> <NAME> <DIRECTORY>
+foo@bar:~$ man cp
+foo@bar:~$ cp dummyTarget dummyName dummyDestination
+```
 - touch
 - date
 - grep
