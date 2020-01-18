@@ -33,7 +33,6 @@ foo@bar:~$ uname -a"
 # -a -> hidden files
 # -l -> long form with permissions, name, size, type, ...
 # -lt and -ltr order by desc and asc respectively
-#
 foo@bar:~$ man ls
 foo@bar:~$ ls -a"
 ```
@@ -251,7 +250,6 @@ foo@bar:~$ tee dummyFile
 sample :
 ```console
 foo@bar:~$ whoami
-foo
 ```
 
 ## References
