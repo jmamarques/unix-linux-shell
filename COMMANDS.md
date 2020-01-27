@@ -1,20 +1,20 @@
 # Commands
-- man - interface about commands (manual)
+- man -> interface about commands (manual)
 ```console
 # man <command>
 foo@bar:~$ man ls
 ```
-- which - show a pathname of files or links
+- which -> show a pathname of files or links
 ```console
 # which <file or link>
 foo@bar:~$ which ls man
 ```
-- clear - clean the terminal screen
+- clear -> clean the terminal screen
 ```console
 # clear
 foo@bar:~$ clear
 ```
-- echo - display a line of text [more detail](./commands/ECHO.md)
+- echo -> display a line of text ([more detail](./commands/ECHO.md))
 ```console
 # echo <?options> <text | variables>
 foo@bar:~$ echo -e "I care with backslash \n and you?"
@@ -90,10 +90,9 @@ foo@bar:~$ ll | nano
 foo@bar:~$ nano dummyFile.txt
 ```
 - \> , \>\>
-- chmod -> change file mode bits [more detail](./Permissions.md)
-- chown -> change file owner and group [more detail](./Permissions.md)
-- chgrp -> change group ownership [more detail](./Permissions.md)
-```console
+- chmod -> change file mode bits ([more detail](./Permissions.md))
+- chown -> change file owner and group ([more detail](./Permissions.md))
+- chgrp -> change group ownership ([more detail](./Permissions.md))
 #chmod <permissions> <target>
 #chmod u=rwx,g=rwx,o= <file>
 #chmod 770 <file>
@@ -123,7 +122,7 @@ foo@bar:~$ man head
 foo@bar:~$ ls | head -1
 foo@bar:~$ head -1 dummyFile.txt
 ```
-- tail - output the last part of files
+- tail -> output the last part of files
 ```console
 # tail -<N> <FILE>
 # tail -1 <FILE> -> last line
@@ -219,7 +218,11 @@ foo@bar:~$ man touch
 foo@bar:~$ touch `date “+%Y%m%d”` dummyFile
 ```
 - date
-- grep
+- grep -> print lines matching a pattern ([more detail](./commands/GREP.md))
+```console
+# grep [OPTIONS] PATTERN [FILE...]
+foo@bar:~$ grep ErroR *
+```
 - tee -> read from standard input and write to standard output and files
 ```console
 #  tee <OPTIONS> <FILE> -> create a file and show the result
