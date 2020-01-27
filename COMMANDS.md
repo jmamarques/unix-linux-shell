@@ -217,7 +217,12 @@ foo@bar:~$ cp dummyTarget dummyName dummyDestination
 foo@bar:~$ man touch
 foo@bar:~$ touch `date “+%Y%m%d”` dummyFile
 ```
-- date
+- date -> print or set the system date and time
+```console
+# date [OPTION]... [+FORMAT]
+foo@bar:~$ date +%T
+foo@bar:~$ date +%C%y%m%d
+```
 - grep -> print lines matching a pattern ([more detail](./commands/GREP.md))
 ```console
 # grep [OPTIONS] PATTERN [FILE...]
