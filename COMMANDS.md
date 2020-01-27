@@ -235,7 +235,12 @@ foo@bar:~$ grep ErroR *
 foo@bar:~$ man tee
 foo@bar:~$ tee dummyFile
 ```
-- sort
+- sort -> sort lines of a text file ([more detail](./commands/SORT.md))
+```console
+#  sort [OPTION]... [FILE]...
+foo@bar:~$ man sort
+foo@bar:~$ sort -t' ' -k4 temp.data
+```
 - find
 - xargs
 - time
