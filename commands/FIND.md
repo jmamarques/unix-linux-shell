@@ -33,7 +33,10 @@ foo@bar:~$ find . -name "*" -type f -mtime +0
 ```console
 foo@bar:~$ find . -type d -print
 ```
-
+* Time took to find files with xargs
+```console
+time find . -name “*.exe*” | xargs ls -l
+```
 ## References
 - Linux manual
 
