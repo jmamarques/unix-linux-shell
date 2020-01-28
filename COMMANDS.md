@@ -241,7 +241,12 @@ foo@bar:~$ tee dummyFile
 foo@bar:~$ man sort
 foo@bar:~$ sort -t' ' -k4 temp.data
 ```
-- find
+- find -> search for files in a directory hierarchy ([more detail](./commands/FIND.md))
+```console
+#  find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+foo@bar:~$ man find
+foo@bar:~$ find ./ -name "t*"
+```
 - xargs
 - time
 - cut
