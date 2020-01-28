@@ -250,14 +250,19 @@ foo@bar:~$ find ./ -name "t*"
 - xargs -> build and execute command lines from standard input
 ```console
 #  xargs [options] [command [initial-arguments]]
-foo@bar:~$ man find
+foo@bar:~$ man xargs
 # Find files named core in or below the directory /tmp and delete them.  Note that this will work incorrectly if
         there are any filenames containing newlines or spaces.
 foo@bar:~$ find /tmp -name core -type f -print | xargs /bin/rm -f
 # Generates a compact listing of all the users on the system.
 foo@bar:~$ cut -d: -f1 < /etc/passwd | sort | xargs echo
 ```
-- time ->
+- time -> run programs and summarize system resource usage
+ ```console
+ #   time   [ -apqvV ] [ -f FORMAT ] [ -o FILE ]
+ foo@bar:~$ man time
+ foo@bar:~$ time ll
+ ```
 - cut
 - paste
 - diff
