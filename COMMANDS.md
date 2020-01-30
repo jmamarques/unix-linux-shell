@@ -278,7 +278,14 @@ foo@bar:~$ cut -d: -f1 < /etc/passwd | sort | xargs echo
  foo@bar:~$ man paste
  foo@bar:~$ paste -d’;’ <FILE> <FILE> |more
  ```
-- diff
+- diff -> compare files line by line
+```console
+ #   diff OPTION... [FILE]... [FILE]...
+ #   -w – ignore whites spaces
+ #   -y – display differences with a new representation
+ foo@bar:~$ man diff
+ foo@bar:~$ diff test.data sample 
+ ```
 - gzip
 - gunzip
 - zcat
