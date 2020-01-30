@@ -271,7 +271,13 @@ foo@bar:~$ cut -d: -f1 < /etc/passwd | sort | xargs echo
  foo@bar:~$ man cut
  foo@bar:~$ cut -d' ' -f12 test.data
  ```
-- paste
+- paste - merge lines of files
+```console
+ #   paste OPTION... [FILE]... [FILE]...
+ #   -d<DELIMITER> - separator
+ foo@bar:~$ man paste
+ foo@bar:~$ paste -d’;’ <FILE> <FILE> |more
+ ```
 - diff
 - gzip
 - gunzip
