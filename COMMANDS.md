@@ -263,7 +263,14 @@ foo@bar:~$ cut -d: -f1 < /etc/passwd | sort | xargs echo
  foo@bar:~$ man time
  foo@bar:~$ time ll
  ```
-- cut
+- cut -> remove sections from each line of files
+ ```console
+ #   cut OPTION... [FILE]...
+ #   -d<DELIMITER> - separator
+ #   -f<COLUMN1…>
+ foo@bar:~$ man cut
+ foo@bar:~$ cut -d' ' -f12 test.data
+ ```
 - paste
 - diff
 - gzip
