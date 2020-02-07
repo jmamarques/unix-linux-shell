@@ -286,8 +286,23 @@ foo@bar:~$ cut -d: -f1 < /etc/passwd | sort | xargs echo
  foo@bar:~$ man diff
  foo@bar:~$ diff test.data sample 
  ```
-- gzip
-- gunzip
+- gzip -> compress or expand files
+```console
+ #   gzip OPTION... [NAME]... [FILE]...
+ #   -c – file
+ #   -d – unzip gzip -d == gunzip
+ #   -v - resume compress
+ foo@bar:~$ man gzip
+ foo@bar:~$ gzip -c file1  > foo.gz
+ foo@bar:~$ gzip -c file2 >> foo.gz
+ foo@bar:~$ gzip file
+ ```
+- gunzip -> opposite of compress
+```console
+ #   gunzip OPTION... [NAME]... [FILE]...
+ foo@bar:~$ man gunzip
+ foo@bar:~$ gunzip file.gz
+ ```
 - zcat
 - tar
 - df
