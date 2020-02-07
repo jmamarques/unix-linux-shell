@@ -288,7 +288,7 @@ foo@bar:~$ cut -d: -f1 < /etc/passwd | sort | xargs echo
  ```
 - gzip -> compress or expand files
 ```console
- #   gzip OPTION... [NAME]... [FILE]...
+ #   gzip OPTION... [FILE]...
  #   -c – file
  #   -d – unzip gzip -d == gunzip
  #   -v - resume compress
@@ -299,11 +299,16 @@ foo@bar:~$ cut -d: -f1 < /etc/passwd | sort | xargs echo
  ```
 - gunzip -> opposite of compress
 ```console
- #   gunzip OPTION... [NAME]... [FILE]...
+ #   gunzip OPTION... [FILE]...
  foo@bar:~$ man gunzip
  foo@bar:~$ gunzip file.gz
  ```
-- zcat
+- zcat - look to inside of the zip file
+```console
+ #   gunzip OPTION... [NAME]...
+ foo@bar:~$ man zcat
+ foo@bar:~$ zcat file.gz
+ ```
 - tar
 - df
 - du
